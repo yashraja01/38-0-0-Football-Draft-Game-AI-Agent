@@ -113,7 +113,7 @@ models/          saved value functions, e.g. V_4-3-3.json
 ```
 
 All seven site formations (4-3-3, 4-4-2, 4-2-4, 3-4-3, 3-5-2, 5-3-2, 5-4-1) are supported:
-`--formation 3-5-2`, etc. just edit it on the play_live.py file in the setup fn!
+`--formation 3-5-2`, while running!
 
 There are till quite a few bugs/quality of life upgrades I shall be uploading whenever I 
 get some spare time from my DSA struggles :')
