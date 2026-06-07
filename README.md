@@ -122,27 +122,29 @@ Feel free to contact me if you have any ideas!
 
 ```
 ->Positions
-1) CF = ST
-2) LM/RM = LW and RW
-3) CAM/CDM = CM
-4) LWB/RWB = LB and RB
+1) CF allowed in ST
+2) LM/RM in LW and RW
+3) CAM/CDM in CM
+4) LWB/RWB in LB and RB
+Fix: simple couple lines of code, will make a huge difference imo!
 
-->Repetition of same Player
+->Repetition of the same Player
 
-Like eg: if it picks VVD from 2019 liverpool and next spins me kabhi 2020 liverpool aa gya and it has a CB position left to fill and VVD screen pe hai it will try to pick it cause for it since ratings and all are different it treats it as a different player altogether 
+Like eg: if it picks VVD from 2019 liverpool and in the next spins, 2020 liverpool shows up and it has a CB position left to fill, it might try to pick VVD again, cause it treats the new VVD as a different player altogether.
+Fix: not yet decided
 
 ->Last player greedy
 
-Sometimes (very rare) it doesn't choose highest rated player end me cause it doesn't know ki khatam ho gya hai. (Very rare and mind boggling as it knows the amount of remaining players and uses that in choice making !)
-Can just hardcote it
+Sometimes (very rare) it doesn't choose highest rated player at the end cause it doesn't know that it's over(?). (Very rare and mind boggling as it knows the amount of remaining players and uses that in choice making !)
+Fix: Can just hardcode it, lowkey should fix it.
 
-->ScreenShots of every team after it's made
+->Screenshotting of every team after it's made
+Fix:easy couple lines in code, needed to study last landing page format to detect it easily and take a screenshot for the times someone wants to keep this playing in the background for longer sessions.
 
 ->recognising last landing page after team is made
-So it can go and 
+So it can go and take the screenshot ofcourse but also:
 1 choose "build another" by itself 
 2 remove pop up
 3 restart team building
-
 
 ===
