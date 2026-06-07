@@ -1,0 +1,181 @@
+{
+  "clickables": [
+    {
+      "tag": "BUTTON",
+      "text": "↺",
+      "cls": "icon-btn",
+      "id": "resetBtn"
+    },
+    {
+      "tag": "A",
+      "text": "how to play guide",
+      "cls": "",
+      "id": ""
+    },
+    {
+      "tag": "A",
+      "text": "guides",
+      "cls": "",
+      "id": ""
+    },
+    {
+      "tag": "A",
+      "text": "every formation explained",
+      "cls": "",
+      "id": ""
+    },
+    {
+      "tag": "A",
+      "text": "how ratings work",
+      "cls": "",
+      "id": ""
+    },
+    {
+      "tag": "A",
+      "text": "tips to go 38-0-0",
+      "cls": "",
+      "id": ""
+    },
+    {
+      "tag": "A",
+      "text": "greatest Premier League XIs of all time",
+      "cls": "",
+      "id": ""
+    },
+    {
+      "tag": "A",
+      "text": "Home",
+      "cls": "",
+      "id": ""
+    },
+    {
+      "tag": "A",
+      "text": "How to Play",
+      "cls": "",
+      "id": ""
+    },
+    {
+      "tag": "A",
+      "text": "Guides",
+      "cls": "",
+      "id": ""
+    },
+    {
+      "tag": "A",
+      "text": "About",
+      "cls": "",
+      "id": ""
+    },
+    {
+      "tag": "A",
+      "text": "Contact",
+      "cls": "",
+      "id": ""
+    },
+    {
+      "tag": "A",
+      "text": "Privacy Policy",
+      "cls": "",
+      "id": ""
+    },
+    {
+      "tag": "A",
+      "text": "Terms of Use",
+      "cls": "",
+      "id": ""
+    },
+    {
+      "tag": "A",
+      "text": "deniz@sancarmedia.com",
+      "cls": "",
+      "id": ""
+    }
+  ],
+  "cards": [
+    {
+      "text": "LM/CAMAge 28 · #21",
+      "tag": "DIV",
+      "cls": "prow-meta"
+    },
+    {
+      "text": "CM/CDMAge 31 · #42",
+      "tag": "DIV",
+      "cls": "prow-meta"
+    },
+    {
+      "text": "LM/RMAge 27 · #8",
+      "tag": "DIV",
+      "cls": "prow-meta"
+    },
+    {
+      "text": "CM/CDMAge 29 · #25",
+      "tag": "DIV",
+      "cls": "prow-meta"
+    },
+    {
+      "text": "ST/CFAge 24 · #35",
+      "tag": "DIV",
+      "cls": "prow-meta"
+    },
+    {
+      "text": "CM/CDMAge 36 · #18",
+      "tag": "DIV",
+      "cls": "prow-meta"
+    },
+    {
+      "text": "CDM/CMAge 26 · #6",
+      "tag": "DIV",
+      "cls": "prow-meta"
+    },
+    {
+      "text": "RM/CMAge 28 · #7",
+      "tag": "DIV",
+      "cls": "prow-meta"
+    },
+    {
+      "text": "LM/LWAge 25 · #12",
+      "tag": "DIV",
+      "cls": "prow-meta"
+    },
+    {
+      "text": "RB/CBAge 23 · #38",
+      "tag": "DIV",
+      "cls": "prow-meta"
+    },
+    {
+      "text": "RW\nR. Wright\nGKAge 36 · #29\n67\n61\n65\n61\n42\n57\n62",
+      "tag": "DIV",
+      "cls": "prow"
+    },
+    {
+      "text": "CM/CDMAge 19 · #70",
+      "tag": "DIV",
+      "cls": "prow-meta"
+    },
+    {
+      "text": "RW/RM/CAMAge 19 · #75",
+      "tag": "DIV",
+      "cls": "prow-meta"
+    },
+    {
+      "text": "LW/LM/CFAge 18 · #79",
+      "tag": "DIV",
+      "cls": "prow-meta"
+    },
+    {
+      "text": "CB/RBAge 17 · #67",
+      "tag": "DIV",
+      "cls": "prow-meta"
+    },
+    {
+      "text": "RB/RWB/RMAge 18 · #84",
+      "tag": "DIV",
+      "cls": "prow-meta"
+    },
+    {
+      "text": "GK\nKT\n72\nK. Trippier\nCB\nCB\nLB\nCM\nCM\nCM\nMÖ\n88\nM. Özil\nHK\n89\nH. Kane\nLW",
+      "tag": "DIV",
+      "cls": "pitch"
+    }
+  ]
+}
