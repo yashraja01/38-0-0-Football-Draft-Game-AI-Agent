@@ -121,6 +121,28 @@ Feel free to contact me if you have any ideas!
 ## stuff I need to update/fix:
 
 ```
+->Positions
+1) CF = ST
+2) LM/RM = LW and RW
+3) CAM/CDM = CM
+4) LWB/RWB = LB and RB
+
+->Repetition of same Player
+
+Like eg: if it picks VVD from 2019 liverpool and next spins me kabhi 2020 liverpool aa gya and it has a CB position left to fill and VVD screen pe hai it will try to pick it cause for it since ratings and all are different it treats it as a different player altogether 
+
+->Last player greedy
+
+Sometimes (very rare) it doesn't choose highest rated player end me cause it doesn't know ki khatam ho gya hai. (Very rare and mind boggling as it knows the amount of remaining players and uses that in choice making !)
+Can just hardcote it
+
+->ScreenShots of every team after it's made
+
+->recognising last landing page after team is made
+So it can go and 
+1 choose "build another" by itself 
+2 remove pop up
+3 restart team building
 
 
 ===
