@@ -48,8 +48,7 @@ V[pos][k]  (k = draft rounds remaining)        k=1                         k=11
 The learned agent beats greedy on both the mean **and the floor** (more consistent good
 results) and closes ~23% of the greedy→optimal gap. See `strength_distribution.png`.
 
-**Reaching a true 38-0-0** needs re-spins (the game gates them behind watch-an-ad). With the
-aggressive "chase" policy:
+**Reaching a true 38-0-0** needs re-spins (first attempt 38-0-0 is just unrealistic!)
 
 | re-spins allowed | 38-0-0 rate |
 |---|---|
