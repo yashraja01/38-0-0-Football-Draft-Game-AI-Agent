@@ -24,7 +24,9 @@ highest right now(this is not just a greedy algo with fancy words, i swear!).
 So the "model" here is a **value function** `V[position][rounds_remaining]` learned by
 **Monte-Carlo self-play to a fixed point** (approximate dynamic programming). No labels, no
 gradient descent, just the right and most efficient(imo) tool for the job. A deep RL policy would be slower, less
-interpretable, and no better on a problem whose optimal policy is this well-structured. But lowkey I just don't have the resources to be training a deep RL kind of model rn so here we are! It does the job well, i guess that's enough for a vibe-coded draft game website haha.
+interpretable, and no better on a problem whose optimal policy is this well-structured. But lowkey I just don't have 
+the resources to be training a deep RL kind of model rn so here we are! It does the job well, i guess that's enough 
+for a vibe-coded draft game website haha.
 
 The learned reservations come out reading like real football sense:
 
@@ -113,7 +115,8 @@ models/          saved value functions, e.g. V_4-3-3.json
 All seven site formations (4-3-3, 4-4-2, 4-2-4, 3-4-3, 3-5-2, 5-3-2, 5-4-1) are supported:
 `--formation 3-5-2`, etc. just edit it on the play_live.py file in the setup fn!
 
-There are till quite a few bugs/quality of life upgrades I shall be uploading whenever I get some spare time from my DSA struggles :')
+There are till quite a few bugs/quality of life upgrades I shall be uploading whenever I 
+get some spare time from my DSA struggles :')
 Feel free to contact me if you have any ideas!
 
 ---
@@ -130,16 +133,21 @@ Fix: simple couple lines of code, will make a huge difference imo!
 
 ->Repetition of the same Player
 
-Like eg: if it picks VVD from 2019 liverpool and in the next spins, 2020 liverpool shows up and it has a CB position left to fill, it might try to pick VVD again, cause it treats the new VVD as a different player altogether.
+Like eg: if it picks VVD from 2019 liverpool and in the next spins, 2020 liverpool shows up and 
+it has a CB position left to fill, it might try to pick VVD again, cause it treats the new VVD as 
+a different player altogether.
 Fix: not yet decided
 
 ->Last player greedy
 
-Sometimes (very rare) it doesn't choose highest rated player at the end cause it doesn't know that it's over(?). (Very rare and mind boggling as it knows the amount of remaining players and uses that in choice making !)
+Sometimes (very rare) it doesn't choose highest rated player at the end cause it doesn't know that 
+it's over(?). (Very rare and mind boggling as it knows the amount of remaining players and uses that 
+in choice making !)
 Fix: Can just hardcode it, lowkey should fix it.
 
 ->Screenshotting of every team after it's made
-Fix:easy couple lines in code, needed to study last landing page format to detect it easily and take a screenshot for the times someone wants to keep this playing in the background for longer sessions.
+Fix:easy couple lines in code, needed to study last landing page format to detect it easily and take 
+a screenshot for the times someone wants to keep this playing in the background for longer sessions.
 
 ->recognising last landing page after team is made
 So it can go and take the screenshot ofcourse but also:
